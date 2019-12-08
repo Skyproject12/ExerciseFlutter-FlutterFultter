@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+// pluss import carousel for slidder
+import 'package:carousel_pro/carousel_pro.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -15,6 +17,10 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
+    // call image carousel
+    Widget image_carousel= new Container(
+
+    );
     // merupakan suatu layout yang mengatur design baik itu appbars, drawers, snackbars
     return Scaffold(
       // melakukan custom in toolbar
